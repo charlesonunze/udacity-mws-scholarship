@@ -1,0 +1,3 @@
+Jake explains what a PWA (Progressive Web App) is then goes on to outline the possible problems one could face when accessing a webpage.
+
+I learnt about a new word "Lie-Fi" which, from what I learnt means bad internet connection that causes slow page loads.

@@ -1,0 +1,8 @@
+RUnning the App
+
+- Open cloned file on the terminal
+
+- Run 'npm install' to install all dependencies required
+
+- Run 'npm run serve' to kickoff the build scripts and launch a server that hosts the demo application at http://localhost:8888
+

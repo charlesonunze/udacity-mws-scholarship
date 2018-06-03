@@ -1,0 +1,11 @@
+Which of these are offline first techniques?
+
+a. Deliver the page's header and content from a cache on the device, then attempt to fetch updated content from the network.
+
+b. Deliver the page's header from a cache, then attempt to fetch the content from the network
+
+c. Attempt to fetch the page from the network, and if that fails, show cached content.
+
+d. Attempt to fetch the page from the network, and if that fails, show an error page from the cache.
+
+ANSWER:: a & b ;)

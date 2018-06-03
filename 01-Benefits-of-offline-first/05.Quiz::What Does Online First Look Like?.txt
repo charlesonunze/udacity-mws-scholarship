@@ -1,0 +1,7 @@
+In which of the following conditions will our app work well?
+
+a. Good connectivity
+b. Poor connectivity / Lie-Fi
+c. Offline
+
+ANSWER:: a & c ;)

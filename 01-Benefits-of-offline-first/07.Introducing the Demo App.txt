@@ -1,0 +1,5 @@
+Jake introduces the Demo App.
+
+The app currently works online(obviously). But when the network is down, it fails completely.
+
+Jake says we're gonna fix. Let us hope he's not lying.

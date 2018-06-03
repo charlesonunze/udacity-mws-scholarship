@@ -1,0 +1,3 @@
+Here Jake talks about the benefits of offline first. 
+
+Rather than a user experiencing the horros of the Lie-Fi, one can show them cached content while still trying the network in the background to fetch new data.

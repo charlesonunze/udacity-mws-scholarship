@@ -1,0 +1,12 @@
+What can either slow down or prevent users recieving data from your website?
+
+a. Poor signal
+b. A misconfigured proxy
+c. Fault in the mobile network
+d. Busy network
+e. Server being DDOSed
+f. Bug in server code
+g. Wifi captive portal
+h. The moon's gravitational pull
+
+ANSWER:: ALL OF THE ABOVE ;)
