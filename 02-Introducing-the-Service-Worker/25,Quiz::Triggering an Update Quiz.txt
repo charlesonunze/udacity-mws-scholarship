@@ -1,0 +1,15 @@
+// TODO: tell the service worker to skipWaiting
+
+worker.postMessage({action: 'skipWaiting'})
+
+// TODO: listen for the "message" event, and call
+// skipWaiting if you get the appropriate message
+self.addEventListener('message', event => {
+  if (event.data.action == 'skipWaiting') self.skipWaiting();
+})
+
+// TODO: listen for the controlling service worker changing
+  // and reload the page
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    window.location.reload();
+  })

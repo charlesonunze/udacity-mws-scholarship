@@ -1,0 +1,12 @@
+// TODO: respond to all requests with an html response
+
+Solution:
+
+self.addEventListener('fetch', function (event) {
+  event.respondWith(new Response('<h1 class="a-winner-is-me">Hello!!!<h1>', {
+    headers: {
+      'Content-Type': 'text/html'
+    }
+  }));
+  console.log(event.request);
+});

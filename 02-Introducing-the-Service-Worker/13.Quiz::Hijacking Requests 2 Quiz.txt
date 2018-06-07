@@ -1,0 +1,10 @@
+// TODO: only respond to requests with a url ending in ".jpg"
+self.addEventListener('fetch', function (event) {
+  
+  if (event.request.url.endsWith('.jpeg')) {
+    event.respondWith(
+      fetch('/imgs/dr-evil.gif')
+    );
+
+  }
+});

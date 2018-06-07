@@ -1,0 +1,1 @@
+- Get the waiting servie worker active by navigating to a page outside the service worker scope or closing all the windows using the current service worker.

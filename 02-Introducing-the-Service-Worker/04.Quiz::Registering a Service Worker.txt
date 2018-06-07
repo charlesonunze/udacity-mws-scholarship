@@ -1,0 +1,14 @@
+
+// check if service workers are supported
+
+if (!navigator.serviceWorker) return console.log(`No ServiceWorker Support!!!`);
+
+// register service worker
+
+  navigator.serviceWorker.register('/sw.js')
+    .then(() => {
+      console.log(`Registered Service Worker!!!`);
+    })
+    .catch((e) => {
+      console.log(`ERROR::`, e);
+    });

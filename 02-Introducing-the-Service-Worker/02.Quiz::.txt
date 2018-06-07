@@ -1,0 +1,11 @@
+Given this registeration code, which page will this service worker control?
+
+a. /
+b. /sw.js
+c. /foo
+d. /foo.html
+e. /foo/
+f. /foo/bar/index.html
+g. /foo/bar
+
+ANSWER:: e, f, g

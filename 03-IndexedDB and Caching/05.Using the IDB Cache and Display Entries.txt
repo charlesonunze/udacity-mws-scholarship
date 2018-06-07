@@ -1,0 +1,1 @@
+Jake teaches us how to load data from the database before making a request to the network.

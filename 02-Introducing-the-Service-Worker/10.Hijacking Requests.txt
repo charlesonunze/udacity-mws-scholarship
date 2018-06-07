@@ -1,0 +1,1 @@
+Here Jake explains how to respond to network requests from a service worker.

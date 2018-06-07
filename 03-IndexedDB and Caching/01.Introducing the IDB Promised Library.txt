@@ -1,0 +1,1 @@
+To finalise our offline experience, we need some kind of database to store some data. Jake introduces us to IndexedDB, the web platform's database.

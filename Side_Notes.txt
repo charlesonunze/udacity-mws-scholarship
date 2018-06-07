@@ -1,0 +1,17 @@
+What is a service worker?
+
+A service worker is a JS file that sits you and network requests.
+
+It runs seperately from your webpage.
+
+It is not visible to the user and can not access the DOM.
+
+But it controls pages i.e intercepts requests as the browser makes them.
+
+--------------------------
+
+When a user goes to a page within a service worker scope, it takes control of the page. All the network request for html, css, js goes through the service worker and triggers a fetch event. You can respond to all these events.
+
+???? Service Worker Lifecycle ????
+
+One can respond to network request with custom code.

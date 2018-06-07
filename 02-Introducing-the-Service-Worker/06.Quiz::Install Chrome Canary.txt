@@ -1,0 +1,1 @@
+Install Chrome Canary to get the latest chrome features.

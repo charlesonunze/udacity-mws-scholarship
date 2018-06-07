@@ -1,0 +1,9 @@
+// TODO
+
+Solution:
+
+event.respondWith(
+caches.match(event.request).then((res) => {
+  if (res) return res;
+  return fetch(event.request);
+})

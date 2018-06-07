@@ -1,0 +1,1 @@
+Jake explains how to get the service worker to work with updated code.

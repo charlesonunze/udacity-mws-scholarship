@@ -1,0 +1,4 @@
+// TODO: instead, respond with the gif at /imgs/dr-evil.gif using a network request
+
+Solution:
+return fetch('/imgs/dr-evil.gif');

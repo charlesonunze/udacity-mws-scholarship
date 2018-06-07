@@ -1,0 +1,1 @@
+Jake teaches us another way to hijack requests using the fetch api.

@@ -1,0 +1,5 @@
+Jake throws more light on what a service worker is and what it does.
+
+He also talked about how one can register a service worker.
+
+Service workers listen for particular events, you can react to these events just like any javascript events.

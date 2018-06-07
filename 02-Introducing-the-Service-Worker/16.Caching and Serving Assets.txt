@@ -1,0 +1,1 @@
+If we are to load data offline, we need a place to store information when the page initially loads. The cache api to the rescue!

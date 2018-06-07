@@ -1,0 +1,20 @@
+// TODO: return a promise for a database called 'wittr'
+// that contains one objectStore: 'wittrs'
+// that uses 'id' as its key
+// and has an index called 'by-date', which is sorted
+// by the 'time' property
+
+return idb.open('wittr', 1, (upgradeDB) => {
+  var store = upgradeDB.createObjectStore('wittrs', {
+    keyPath: 'id'
+  })
+  store.createIndex('by-date', 'time')
+})
+
+// TODO: put each message into the 'wittrs' object store.
+
+var tx = db.transaction('wittrs', 'readwrite')
+var store = tx.objectStore('wittrs')
+messages.forEach(message => {
+  store.put(message)
+});
